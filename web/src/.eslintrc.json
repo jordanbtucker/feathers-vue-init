@@ -1,0 +1,21 @@
+{
+	"env": {
+		"browser": true,
+		"node": false
+	},
+	"parser": "babel-eslint",
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"plugins": [
+		"html",
+		"import"
+	],
+	"extends": [
+		"plugin:import/recommended"
+	],
+	"rules": {
+		"import/no-unresolved": "off",
+		"node/no-unsupported-features": "off"
+	}
+}
